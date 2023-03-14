@@ -7,6 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
-    <Counter />
+    <div className="p-2 m-2 row text-center">
+      <Counter />
+    </div>
   </React.StrictMode>
 );
